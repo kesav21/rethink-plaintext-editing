@@ -6,15 +6,16 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "classnames": "^2.2.6",
-    "lodash": "^4.17.19",
-    "next": "^9.5.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "lodash": "^4.17.20",
+    "next": "^9.5.5",
+    "react": "^16.14.0",
+    "react-ace": "^9.2.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react": "^7.21.5",
     "prettier": "^1.19.1",
     "svg-inline-loader": "^0.8.2"
   },
@@ -38,6 +39,15 @@
     }
   },
   "prettier": {
-    "singleQuote": true
+    "printWidth": 88,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "trailingComma": "all",
+    "bracketSpacing": false,
+    "arrowParens": "always",
+    "endOfLine": "lf"
   }
 }
